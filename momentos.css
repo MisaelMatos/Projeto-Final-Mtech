@@ -1,0 +1,55 @@
+/* Resetando alguns estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 80%;
+    font-family: Arial, sans-serif;
+}
+
+/* Centraliza o conteúdo na tela */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f0f0f0; /* Cor de fundo suave */
+}
+
+/* Estilos para a imagem */
+.imagem {
+    max-width: 90%; /* A imagem ocupa no máximo 90% da largura da tela */
+    max-height: 90%; /* A imagem ocupa no máximo 90% da altura da tela */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombras suaves ao redor da imagem */
+    transition: transform 0.3s ease; /* Transição suave para o hover */
+}
+
+/* Efeito de hover para a imagem */
+.imagem:hover {
+    transform: scale(1.05); /* A imagem aumenta levemente quando o mouse passa por cima */
+}
+
+.b{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #4CAF50; /* Cor de fundo verde */
+    border: none; /* Remove a borda */
+    color: #f8f8fa; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinha o texto no centro */
+    text-decoration: none; /* Remove o sublinhado */
+    display: inline-block; /* Exibe os botões na mesma linha */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 10px; /* Margem entre os botões */
+    cursor: pointer; /* Cursor de mãozinha */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse */  
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 30%;
+}
